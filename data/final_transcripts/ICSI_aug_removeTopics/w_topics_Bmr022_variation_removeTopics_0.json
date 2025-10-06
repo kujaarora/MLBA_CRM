@@ -1,0 +1,32 @@
+{
+    "opening": [
+        "'speaker_E': 'Is it on?'",
+        "'speaker_A': 'OK, here we go.'",
+        "'speaker_B': 'Uh, so uh, so I c I definitely have to leave at three thirty today for'",
+        "'speaker_A': 'So'",
+        "'speaker_B': 'whatever.'",
+        "'speaker_A': 'Definitely have to go to tea.'",
+        "'speaker_B': 'That's'",
+        "'speaker_A': 'So'",
+        "'speaker_B': 'Yeah, they're they're having birthday cake and such and so I can't miss that.'",
+        "'speaker_A': 'That too, but'",
+        "'speaker_C': 'You're a May birthday, right?'",
+        "'speaker_B': 'I'm a May birthday, yeah, so I have to'",
+        "'speaker_D': 'Oops.'",
+        "'speaker_C': 'Barbara told me.'",
+        "'speaker_B': 'Yeah.'",
+        "'speaker_C': 'Barbara Peskin.'"
+    ],
+    "closing": [
+        "'speaker_C': 'Was there anything else on your list?'",
+        "'speaker_A': 'Nope.'",
+        "'speaker_A': 'Shall we do some digits?'",
+        "'speaker_C': 'Now, wait, are are we doing them simultaneously or one at a time?'",
+        "'speaker_A': 'I wasn't planning on doing it simultaneously.'",
+        "'speaker_C': 'Alright.'",
+        "'speaker_E': 'Lee, you liked that l huh?'",
+        "'speaker_A': 'Oop!'",
+        "'speaker_A': 'Ouch!'",
+        "'speaker_F': 'Ooo!'"
+    ]
+}

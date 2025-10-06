@@ -1,0 +1,78 @@
+{
+    "Beginning_no_topic": [
+        "'PERSON4': 'Thanks, it is better  passing to PERSON3.'",
+        "'PERSON3': 'So yeah,  its PERSON9 right?'",
+        "'PERSON4': 'Can you write it to the document?'",
+        "'PERSON4': 'PERSON9?'",
+        "'PERSON9': 'I will write there.'",
+        "'PERSON4': 'So this is mostly for PERSON11 now.'",
+        "'PERSON4': 'Cause we had to, PERSON11 wants to read it and .'",
+        "'PERSON4': 'Thank you I think we can you can quit the meeting.'",
+        "'PERSON4': 'If you don't have any questions.'",
+        "'PERSON4': 'So bye'",
+        "'PERSON9': 'Bye, see you.'",
+        "'PERSON8': 'Bye bye bye.'"
+    ],
+    "better domain adaptation": [
+        "'PERSON3': 'So.'",
+        "'PERSON3': 'So, for last two weeks i've been working, i started with training new language model for domain adaptation,  ASR.'",
+        "'PERSON3': 'So now we have, now we can have better  adaptation, before like meetings and all.'",
+        "'PERSON3': 'Secondly I was trying to .'",
+        "'PERSON3': 'Yeah yeah.'",
+        "'PERSON9': 'What tool are you using for the language model adaptation?'",
+        "'PERSON3': ' script that was shared by PERSON1.'",
+        "'PERSON3': 'So I don't think i would understand whats in the.'",
+        "'PERSON3': 'So I just  and data  with text data.'",
+        "'PERSON3': 'English text data.'",
+        "'PERSON3': 'And i think that we can have better language model because if we use the, text, like some text data .'",
+        "'PERSON3': 'Maybe like sentences from his presentation, and if we  into language  and build the language model then we can have a adaptation, because until now we were just writing,  and mapping them to some other words that did not exist in the earlier language model.'",
+        "'PERSON3': 'So this is going to be better.'"
+    ],
+    "new model trained for Czech": [
+        "'PERSON3': 'And nextly I was trying to run the,  docker on U4 machine, and its like .'",
+        "'PERSON3': ' with that, so yeah thats like , apart from this I also done automatic audio transcription and there were a lot of transcription .'",
+        "'PERSON3': 'Next I trained new model for Czech  using the Czech  data set and I currently have two models.'",
+        "'PERSON3': 'And they are both, they are both right on the GitHub.'",
+        "'PERSON3': 'Depositary  Czech segmenter.'",
+        "'PERSON3': 'Apart from that currently I am working on  to get SLT into action.'",
+        "'PERSON3': 'And I'm also fixing the  from PERSON4.'"
+    ],
+    "planning new Czech segmenter": [
+        "'PERSON3': 'And I'm also planning a new Czech segmenter using the data set that user  PERSON9 .'",
+        "'PERSON3': 'And they were like a lot of sentences, so I just took 6 million of them, and lets see how the  be  new model.'",
+        "'PERSON3': 'And next I'm planning to  models using Czech, using Czech data, so  I'll use Czech data.'",
+        "'PERSON3': 'So that's all from me.'",
+        "'PERSON3': 'For yeah.'",
+        "'PERSON3': 'Any questions PERSON9?'",
+        "'PERSON9': 'Regarding the domain adaptation of the language model, we can maybe .'",
+        "'PERSON9': 'Sometimes I work on kind of similar things for Czech.'",
+        "'PERSON8': 'Sure sure sure sure'",
+        "'PERSON9': 'Yeah, I I started I think I mentioned it in previous meeting, I worked on like '",
+        "'PERSON9': 'like data based , so how it worked is that you have some domain .'",
+        "'PERSON9': 'And you have large corpus of some other language for example.'",
+        "'PERSON8': 'Yeah, yeah, yes.'",
+        "'PERSON9': 'On the like, domain  data based  sentences to your domain.'",
+        "'PERSON9': ' like this week.'",
+        "'PERSON9': ' work  model, and a can you hear me?'",
+        "'PERSON3': 'Yeah, I can hear you, I had to turn my microphone off to hear you.'",
+        "'PERSON9': 'Oh okay i see.'",
+        "'PERSON9': 'So yeah, just maybe it could be interesting if we meet and yeah we can try to coordinate the work on the language adaptation together.'",
+        "'PERSON3': 'So,  maybe  find some time to work  and actually whats happening inside.'",
+        "'PERSON3': 'And we can make together.'"
+    ],
+    "discussion about toolkit for language modeling": [
+        "'PERSON9': 'I would actually be like interested like what toolkit they use for the language modeling or if they have like, their their own um, toolkit for that or if they use for example the .'",
+        "'PERSON9': 'So, because I use the KenLM toolkit and there is quite nice option, they have quite good performance in terms of interpolations of different language models, so you don't train only one language model, but you have like some big baseline language model and then you have a some small domain model and you interpolate between them like based on some development set on which you tune the  city.'",
+        "'PERSON3': 'Um-hum, yeah, yeah yeah.'",
+        "'PERSON9': 'There would be option to  ngram model, I think it could be interesting as well to try maybe use can LM it give.'",
+        "'PERSON3': 'Yeah sure, we can discuss more details when we meet in person, and lets see if we can achieve more better language model adaptation.'",
+        "'PERSON3': 'Domain adaptation, domain data, and yeah.'",
+        "'PERSON9': 'Yeah sure.'"
+    ],
+    "working on pipeline with sentence embedding": [
+        "'PERSON8': 'Yes, so now PERSON9, can you hear us?'",
+        "'PERSON9': 'Yes, so, yeah I basically been working on a pipeline I've connected this sentence embedings that I've already mentioned with like this Subaczech corpus, which is basically a huge corpus of a Czech news articles, and there is always headline of the article and a short abstract and then there is full text, so what I'm doing I got some, like domain sentences and based on these i searched through the abstracts and headlines to find the most like similar articles that match my domain and then i take the full article texts and use them to extend the language model to make the adaptation for that domain so yeah I'm working on it as part of my diplomathysis so I'm like have like 5 domains different from each other and um, yeah I'm trying to do this techniques for each of them.'",
+        "'PERSON9': 'And to see if there are some improvements, actually I measured and seems seems to give seems to give like quite the constant improvements across the domains, so it yeah, I'm so that was yeah, that was the main I have been working on this week.'",
+        "'PERSON4': 'Okay thanks.'"
+    ]
+}
