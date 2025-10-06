@@ -23,3 +23,11 @@ pip install -r requirements.txt
 * Run the [preprocess_tcr_data.py](./preprocess_tcr_data.py) file to create the final transcripts from the raw data for each meeting in a separate file. 
 
 
+## BERT MODEL SETUP:
+* Run [bert_model.py](./bert_model.py) file. 
+```
+python3 bert_model.py
+```
+This will create a folder like [bert-base-uncased](./bert-base-uncased). This folder contains the weights and other model information in order to run in offline mode. 
+
+NOTE: Currently the model weights are not pushed due to large file storage but running the above command will create it. Added a sample directory without the safetensors of the model. 
