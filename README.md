@@ -31,3 +31,32 @@ python3 bert_model.py
 This will create a folder like [bert-base-uncased](./bert-base-uncased). This folder contains the weights and other model information in order to run in offline mode. 
 
 NOTE: Currently the model weights are not pushed due to large file storage but running the above command will create it. Added a sample directory without the safetensors of the model. 
+
+
+## Run RAG BERT XGBoost Pipeline:
+
+* Run the pipeline with synthetic to test the pipeline working status:
+```
+python3 rag_bert_xgboost_pipeline.py
+```
+
+* Run the pipeline with real dataset i.e., TCR dataset mentioned above:
+```
+python3 rag_bert_xgboost_pipeline.py --use_real_dataset
+```
+
+Flow of the pipeline:
+
+* The pipeline processes text data through a structured workflow involving preprocessing, model training, and evaluation.
+
+* Raw data is cleaned, tokenised, and converted into model-ready inputs.
+
+* A BERT-based classifier is fine-tuned using Apple’s MPS backend for accelerated training on the M2 Air.
+
+* Multiple training configurations, including ablation variants, are supported to measure the impact of different components.
+
+* Each model is trained and validated across folds, with performance metrics automatically logged.
+
+* The pipeline generates predictions, evaluation reports, and visualisations.
+
+* The framework enables clear comparison between baseline, ablation, and fully optimised models in a reproducible manner.
