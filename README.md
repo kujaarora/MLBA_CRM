@@ -28,9 +28,9 @@ pip install -r requirements.txt
 ```
 python3 bert_model.py
 ```
-This will create a folder like [bert-base-uncased](./bert-base-uncased). This folder contains the weights and other model information in order to run in offline mode. 
+This will create a sub folder named "bert-base-uncased". This folder contains the weights and other model information in order to run in offline mode. 
 
-NOTE: Currently the model weights are not pushed due to large file storage but running the above command will create it. Added a sample directory without the safetensors of the model. 
+NOTE: The model weights are not pushed due to large file storage but running the above command will create it. 
 
 
 ## Run RAG BERT XGBoost Pipeline:
